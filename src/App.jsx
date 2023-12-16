@@ -13,7 +13,6 @@ function App() {
     <ClockSlogan/>
      
     <ClockTime items={foodItems} />
- 
   </center>
   </>
 
