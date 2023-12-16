@@ -8,7 +8,6 @@ function App() {
   
   return <>
   <center>
-
     <Clock />
     <ClockSlogan/>
      
