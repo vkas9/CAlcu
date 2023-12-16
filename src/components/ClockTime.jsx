@@ -25,9 +25,7 @@ let ClockTime = ({items}) => {
                 <Items key={item} foodItem={item}/>
                 
                 ))
-            }
-            
-            
+            } 
         </ul>
             </div>
     </>
