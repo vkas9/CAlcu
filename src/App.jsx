@@ -14,6 +14,5 @@ function App() {
     <ClockTime items={foodItems} />
   </center>
   </>
-
 }
 export default App; 
