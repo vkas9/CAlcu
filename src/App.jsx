@@ -4,7 +4,7 @@ import ClockSlogan from "./components/ClockSlogan";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 function App() {
-  let foodItems=["Fruits","Green Vegetalable","Roti","Salad","Milk"]
+  let foodItems=[]
   
   return <>
   <center>
