@@ -10,7 +10,7 @@ let ClockTime = () => {
     
    
     const handleOnChange=(event)=>{
-        if(event.key==='Enter'){
+        if( event.target.value!="" && event.key==='Enter'){
             let newItemList=[...items2,event.target.value];
             event.target.value="";
             setTextState(newItemList);

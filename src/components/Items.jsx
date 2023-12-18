@@ -3,7 +3,7 @@ let Items=({foodItem})=>{
     
     
     return  <>
-    <li  className={styles.FoodContainer}> {foodItem}</li>
+    <li  className={`${styles.FoodContainer} active`} > {foodItem}</li>
     <button >Buy</button>
     </>
 }
