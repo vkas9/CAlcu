@@ -13,8 +13,7 @@ let ClockTime = () => {
             event.target.value="";
             setTextState(newItemList);
 
-        }
-        
+        }  
     };
     return <><p>
         This is the current time: {time.toLocaleDateString()} - {time.toLocaleTimeString()}
